@@ -1,0 +1,62 @@
+{
+    "pdfs": [
+       {
+         "id": 1,
+         "name": "Sample PDF 1",
+         "generatedDate": "2024-04-25",
+         "updatedDate": "2024-04-25",
+         "downloadUrl": "/path/to/sample-pdf-1.pdf"
+       },
+       {
+         "id": 2,
+         "name": "Sample PDF 2",
+         "generatedDate": "2024-04-24",
+         "updatedDate": "2024-04-25",
+         "downloadUrl": "/path/to/sample-pdf-2.pdf"
+       },
+       {
+        "id": 3,
+        "name": "Sample PDF 3",
+        "generatedDate": "2024-04-25",
+        "updatedDate": "2024-04-25",
+        "downloadUrl": "/path/to/sample-pdf-3.pdf"
+      }
+    ],
+    "users": [
+       {
+         "id": "8926",
+         "firstName": "abdessamad",
+         "lastName": "iaich",
+         "email": "abdessamadiaich@gmail.com",
+         "password": "pRzJSCMfO4"
+       },
+       {
+         "id": "706a",
+         "firstName": "yassine",
+         "lastName": "lahbalat",
+         "email": "yassine123@gmail.com",
+         "password": "97rJNF6UIy"
+       },
+       {
+         "id": "c8ad",
+         "firstName": "oussama",
+         "lastName": "bachiri",
+         "email": "oussama123@gmail.com",
+         "password": "oKyBnKhQgM"
+       },
+       {
+         "id": "a96e",
+         "firstName": "ali",
+         "lastName": "jbari",
+         "email": "ali123@gmail.com",
+         "password": "xHlijUWhlG"
+       },
+       {
+         "id": "d40a",
+         "firstName": "mouhssin",
+         "lastName": "rafaai",
+         "email": "mouhssin123@gmail.com",
+         "password": "DYkoJg3UyA"
+       }
+    ]
+   }

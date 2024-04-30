@@ -1,17 +1,23 @@
-import { useAuth, AuthProvider } from "../Auth"
-import { useContext, useEffect } from "react"
+// import { useAuth, AuthProvider } from "../Auth"
+// import { useContext, useEffect } from "react"
 import { Outlet } from "react-router-dom"
-import { useNavigate } from "react-router-dom"
+// import { useNavigate } from "react-router-dom"
+import Navbar from "../components/Navbar"
 
 const DashboardLayout = () => {
-  const navigate = useNavigate();
-  const { token } = useAuth()
+  // const navigate = useNavigate();
+  // const { token } = useAuth()
 
-  useEffect(()=>{
-    if (!token) {navigate("login")}
-  })
+  // useEffect(()=>{
+  //   // if (!token) {navigate("login")}
+  // })
   
-  return (<Outlet />)
+  return (
+    <>
+      <Navbar/>
+      <Outlet />
+    </>
+    )
 }
 
 export default DashboardLayout;
